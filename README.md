@@ -1,55 +1,38 @@
-# Miki App — Gestor de Negocio
+# Miki App - Inventarios y Gestión de Gastos 🚀
 
-**Miki App** es una aplicación móvil desarrollada en Flutter pensada para pequeños negocios que necesitan gestionar de forma sencilla y eficiente sus **entradas y salidas de productos, dinero o servicios**. Diseñada para llevar un control práctico desde el teléfono, esta app busca optimizar los flujos diarios de cualquier emprendimiento.
-
-Puedes ver mas es: [ Web Oficial ](https://esfiallos.github.io/proyecto-flutter-app_gestor/)
+Miki App es una aplicación móvil desarrollada en **Flutter** orientada a la administración de pequeños negocios. Permite centralizar el control de stock, registrar movimientos financieros y visualizar balances en tiempo real.
 
 ---
 
-## Características principales
+## 📸 Pantallas del Proyecto
 
-- 📥 Registro de entradas (productos, ingresos, etc.)
-- 📤 Registro de salidas (ventas, egresos, etc.)
-- 📊 Visualización de historial de movimientos
-- 🔎 Búsqueda rápida de registros
-- 💾 Almacenamiento local (sin conexión a internet)
-- 🧱 Estructura modular y mantenible en Flutter
+### Gestión de Acceso
+| Inicio de Sesión | Menú de Usuario |
+| :---: | :---: |
+| ![Login](img_rm/01.jpg) | ![Perfil](img_rm/02.jpg) |
 
----
+### Control de Inventarios
+| Listado de Productos | Registro | Edición y Stock |
+| :---: | :---: | :---: |
+| ![Inventario](img_rm/03.jpg) | ![Crear](img_rm/05.jpg) | ![Editar](img_rm/06.jpg) |
 
-## Tecnologías utilizadas
-
-- **Flutter** (SDK de desarrollo multiplataforma)
-- **Dart** (Lenguaje de programación)
-- **GetX** (para manejo de estado y navegación)
-- **Sqflite** (base de datos local en SQLite)
-- **Path Provider** (para rutas del sistema)
+### Finanzas y Gastos
+| Formulario de Gastos | Confirmación | Balance General |
+| :---: | :---: | :---: |
+| ![Gastos](img_rm/04.jpg) | ![Exito](img_rm/08.jpg) | ![Balance](img_rm/07.jpg) |
 
 ---
 
+## 🚀 Características Principales
+* **Gestión de Stock:** Visualización de referencias y costos totales.
+* **Registro de Flujo:** Categorización de gastos por proveedor y cliente.
+* **Multimedios:** Soporte para carga de imágenes de productos.
+* **Balances:** Resumen detallado de ingresos (Efectivo/Otros) vs Egresos.
 
-## Cómo ejecutar el proyecto
+## ⚙️ Configuración
 
-1. Clona el repositorio:
-2. Entra al directorio del proyecto:
-     cd proyecto-flutter-app_gestor
-3. Instala las dependencias:
-   flutter pub get
-4. Ejecuta el proyecto
-   flutter run
+1. **Dependencias:** `flutter pub get`
+2. **Ejecución:** `flutter run`
 
-
-## Contribuciones
-Si quieres colaborar, mejorar la app o sugerir algo:
-
-1. Haz un fork del proyecto
-2. Crea una nueva rama (git checkout -b feature-nueva)
-3. Haz tus cambios
-4. Crea un pull request
-
-
-
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+*Para ver la hoja de ruta de mejoras técnicas, consulta el archivo [TODO.md](./TODO.md).*
